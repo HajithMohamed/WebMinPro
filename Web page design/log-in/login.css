@@ -1,5 +1,5 @@
 style>
-body {
+.Login {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -8,17 +8,19 @@ body {
     rgba(34, 34, 34, 0.6));
     background-size: cover;
     background-position: center;
+    height:1200px;
  }
 .log-in{
     width: 550px;
     height: 400px;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-left:450px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background: transparent;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(7, 7, 7);
     backdrop-filter: blur (5px);
     box-shadow: 0 0 10px rgba(0, 0, 0.2);
     color: #080808;
@@ -56,14 +58,9 @@ body {
             i {
             color: #070101 ;
             }
+
             a {
             text-decoration: none;
-
             }
-            button {
-            padding: 10px 130px 10px 130px;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            }
+            
         
