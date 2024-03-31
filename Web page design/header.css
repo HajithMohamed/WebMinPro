@@ -2,21 +2,21 @@
 .header{
     border:solid black 1px;
     background-color:rgb(51, 50, 50);
-    height:100px;
+    height:90px;
     font-size: 16px;  
 }
 ul {
     list-style-type: none;
-    margin-top: 30px;
+ 
     padding: 0;
     overflow: hidden;
   }
   
-  li {
-    float: right;
+  .header li {
+    float: left;
   }
   
-  li a, .dropbtn {
+  .ul a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -50,3 +50,4 @@ li a:hover:not(.active) {
   float: right;
   width: 20px;
 }
+
