@@ -2,17 +2,25 @@
     display:grid;
     /* flex-flow: row wrap; */
     justify-content: center;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     border: solid black 1px;
     height:350px;
     background-color: black;
     color:white;
     font-size:18px;
 }
-/* .column
+.column
 {
-  border:2px solid white;
-} ////*/
+  display:grid;
+  border :1px solid white;
+  grid-template-columns: 1fr 1fr;
+
+
+} 
+.subColumn
+{
+  border:1px solid white;
+}
 .column{
     flex:1;
     margin:2px;
