@@ -1,12 +1,78 @@
-.footer{
-    display:grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    border: solid black 1px;
-    height:260px;
-    background-color: black;
-    color:white;
-    font-size:14px;
+
+.footer
+{
+  background-color:black;
+}
+.footerBox{
+
+  
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  
+}
+.footer p
+{
+  font-size: 15px;
+  text-transform:uppercase;
+  font-family:brutalist_mono;
+  font-weight: 100;
+}
+.bottomLogo img
+{
+  width: 300px;
+  height: 300px;
+  
+}
+.help
+{
+  height: 150px;;
+  /* border:1px solid white; */
+  margin-top:60px;
+  
+ 
+}
+.help a
+{
+  color:white;
+  text-decoration:none;
+}
+.help a:hover
+{
+  font-weight: bold;
+  font-size:20px;
+  
+  
+}
+
+.grid-item
+{
+  width:80%;
+  
+  background-color:white;
+}
+
+.media a
+{
+ color:white;
+ border:1px solid white;
+ border-radius:300px;
+ width: 20px;
+ height: 20px;
+
+ 
+ display: grid;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.media
+{
+  margin-left: 40%;
+  display: grid;
+  grid-template-columns:repeat(4,80px);
+  height:300;
+  
 }
 h3,p{
     color:white;
@@ -22,10 +88,19 @@ h3,p{
     text-decoration: none;
     margin: 5px 2px;
   }
+
+
   .fa:hover {
+    font-size: 20px;
+    width:30px;
+    height:30px;
       opacity: 0.7;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
-.fa-facebook {
+/* .fa-facebook {
     background: #3B5998;
     color: white;
   }
@@ -35,12 +110,15 @@ h3,p{
   }
   .fa-instagram {
     background: #ef673a;
+    border-radius: 200px;
     color: white;
   }
   .fa-google {
-    background: #dd4b39;
+    background: #110d0c;
     color: white;
-  }
+    border-radius: 200px;
+    border: white solid 1px;
+  } */
 
   #div1{
     display: flex;
@@ -55,3 +133,4 @@ h3,p{
   a.media{
     justify-content: center;
   }
+  
