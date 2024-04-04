@@ -1,16 +1,31 @@
-/* .changeimage
+.gallary
 {
-    position:absolute;
-    left:0;
-    top:0;
-    width:100vw;
-    height:100vh;
+    
+    margin: 20vh auto;
+    
+    /* background-color:rgba(255,255,255,.5); */
+    width:50vw;
+    height:60vh;
+}
+
+ 
+ 
+ 
+ .changeimage
+{
+    
+    width:100%;
+    height:100%;
+    
+
     animation:animate 16s ease-in-out infinite;
-    margin-top:100px;
+     /* margin-top:100px; */ 
     background-repeat: no-repeat;
-    /* background-clip: border-box; */
-    /* background-size: cover; */
-/* }
+     /* background-clip: border-box; */
+      background-size: cover;
+      border-radius: 30px;
+      
+ }
 @keyframes animate{
    0%
    {
@@ -44,5 +59,7 @@
    100%
    {
     background-image:url("../edit/image8.jpg");
-   /* }
-} */ 
+   
+} 
+}
+
