@@ -1,0 +1,48 @@
+/* .changeimage
+{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+    animation:animate 16s ease-in-out infinite;
+    margin-top:100px;
+    background-repeat: no-repeat;
+    /* background-clip: border-box; */
+    /* background-size: cover; */
+/* }
+@keyframes animate{
+   0%
+   {
+    background-image:url("../edit/image1.png");
+    
+   }
+   10%
+   {
+    background-image:url("../edit/image2.png");
+   }
+   20%
+   {
+    background-image:url("../edit/image3.png");
+   }
+   40%
+   {
+    background-image:url("../edit/image4.jpg");
+   }
+   50%
+   {
+    background-image:url("../edit/image5.jpg");
+   }
+   60%
+   {
+    background-image:url("../edit/image6.jpg");
+   }
+   80%
+   {
+    background-image:url("../edit/image7.jpg");
+   }
+   100%
+   {
+    background-image:url("../edit/image8.jpg");
+   /* }
+} */ 
