@@ -46,46 +46,33 @@
     background-image:url("../edit/image3.png");
     background-position: left;
    }
-   30%
+   40%
    {
     background-image:url("../edit/image4.jpg");
     background-position: left;
 
    }
-
-   40%
+   50%
    {
     background-image:url("../edit/image5.jpg");
     background-position: left;
    }
-   50%
+   60%
    {
     background-image:url("../edit/image6.jpg");
     background-position: left;
    }
-   60%
+   80%
    {
     background-image:url("../edit/image7.jpg");
     background-position: left;
    }
-   80%
+   100%
    {
     background-image:url("../edit/image8.jpg");
     background-position: left;
-   } 
-   90%
-   {
-    background-image:url("../edit/image9.jpg");
-    background-position: left;
-   } 
-
-   100%
-   {
-    background-image:url("../edit/image10.jpg");
-    background-position: left;
-   } 
-
-
+   
+} 
 }
 
 .iamgecollection{
