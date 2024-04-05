@@ -1,0 +1,16 @@
+.body{
+    display: flex;
+    flex-flow: row wrap;
+}
+.shows{
+    flex:1;
+    border: 2px solid black;
+    height:1000px;
+    width: 49%;
+}
+.details{
+    flex: 1;
+    height: 1000px;
+    width: 50%;
+    border: 1px solid black;
+}
