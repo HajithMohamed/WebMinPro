@@ -6,7 +6,7 @@
   }
 
   function navigateToLink1() {
-    const dropdown = document.getElementById("typesDropdown");
+    const dropdown = document.getElementById("sizeDropdown");
     const selectedValue = dropdown.value;
     window.location.href = selectedValue;
   }
