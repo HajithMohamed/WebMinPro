@@ -10,3 +10,9 @@
     const selectedValue = dropdown.value;
     window.location.href = selectedValue;
   }
+
+  function navigateToLink2() {
+    const dropdown = document.getElementById("colorDropdown");
+    const selectedValue = dropdown.value;
+    window.location.href = selectedValue;
+  }
