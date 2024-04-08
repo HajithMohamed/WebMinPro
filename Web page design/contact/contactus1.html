@@ -1,17 +1,19 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./icon1.png">
-        <link rel="stylesheet" href="./header.css">
-        <link rel="stylesheet" href="./log-in.css">
-        <link rel="stylesheet" href="./footer.css">
+        <link rel="icon" type="image/x-icon" href="../icon1.png">
+        <link rel="stylesheet" href="../header.css">
+        <!-- <link rel="stylesheet" href="./login.css"> -->
+      
+        <link rel="stylesheet" href="../footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./official.css">
-        <link rel="stylesheet" href="./name.css">
-        <link rel="stylesheet" href="./gallary.css">
-        <script type="text/javascript" src="./js/jquery-3.7.1.js"></script>
-        <script type="text/javascript" src="./js/script.js"></script>
-        <link rel="stylesheet" type="text/css" href="./font/font.css">
+        <link rel="stylesheet" href="../official.css">
+        <!-- <link rel="stylesheet" href="../name.css"> -->
+        
+        <script type="text/javascript" src="..../js/jquery-3.7.1.js"></script>
+        <script type="text/javascript" src="..../js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="../font/font.css">
+        <link rel="stylesheet" type="text/css" href="./contactus.css">
 
   
       
@@ -21,7 +23,7 @@
 
         <style type="text/css">
 
-        
+         
             a.link:hover{
                 font-weight: 900;
                 }
@@ -33,7 +35,7 @@
             #pic{
                 height:100px;
                 width:100px;
-          
+                /* margin-bottom: 150px; */
             }
 
             .header
@@ -60,10 +62,10 @@
                 justify-content: center;
                 height: 100px;
               
-             
+              
                 
             }
-          
+    
             .para p
             {
                 font-family:Fjalla;
@@ -86,7 +88,7 @@
 
                 <div class="logoText nav">
                    
-                    <img src="./pic.png" id="pic" align="left">
+                    <img src="../pic.png" id="pic" align="left">
                     
                     
                     
@@ -107,11 +109,12 @@
 
 
               <div class="button text">
-                <button class="submit "><a href="./singnup/singup.html" target="_blank" class="a">Sign up</a></button>
+                <button class="submit "><a href="#" class="a" style="text-decoration: none;">Sign in</a></button>
               </div>
 
               <div class="button text">
-                <button class="submit"><a href="./singin/log-in.html" class="a" target="_blank">Sign in</a></button>
+                <button class="submit "><a href="#" class="a" style="text-decoration: none;">Sign up</a></button>
+             
               </div>
               
 
@@ -119,65 +122,57 @@
               
               
         </div>
-        <div class="mainborder">
-        <!-- <div class="Official"> -->
+        
 
-            <div class="gallary">
+                <div class="contact">
+                    <form method="get">
+                    <div class="logicon">
+                        <img src="../logo.jpg">
+                        <h1> KK Shoes Warehouse</h1>
+                    </div>
 
-                <div id="changeimage" class="changeimage">
                     
-
-                </div>  
-
-
-
-            </div>
-
-       
-      
-        <div class="iamgecollection">
-            <h1>gallary</h1>
-            <div class="collect">
-                <div class="photo p1">
-                    <img src="../gallary/p1.webp">
-                </div>
-                <div class="photo p2">
-                    <img src="../gallary/p2.avif">
-                </div>
-                <div class="photo p3">
-                    <img src="../gallary/p3.jpg">
-                </div>
-                <div class="photo p4">
-                    <img src="../gallary/p4.avif">
-                </div>
-                <div class="photo p5">
-                    <img src="../gallary/p5.webp">
-                </div>
-                <div class="photo p6">
-                    <img src="../gallary/p6.webp">
-                </div>
-                <div class="photo p7">
-                    <img src="../gallary/p7.jpg">
-                </div>
-                <div class="photo p8">
-                    <img src="../gallary/p8.jpg">
-                </div>
-                <div class="photo p8">
-                    <img src="../gallary/p8.jpg">
-                </div>
-                
+                       
+                            <div class="name input">
+                                <label for="name">Enter Your Name</label>
+                            
+                                <input type="text" name="name" id="name" placeholder="Full name">
+                            </div> 
+                            <div class="mail input">
+                                <label for="mail">Email</label>
+                            
+                                <input type="text" name="mail" id="email"placeholder="Email">
+                            </div> 
+                            <div class="number input">
+                                <label for="number">Phone</label>
+                           
+                                <input type="text" name="number" id="phone" placeholder="Phone">
+                            </div>
+                            <div class="comment input">
+                                <label for="comment">Enter Your Comment</label>
+                           
+                                <textarea colspan="50" rowspan="5"id="comment" placeholder="Enter Your Comment">
+                                </textarea>
+                            </div>
+                            <div class="submit input">
+                                <input type="button" name="submit" value="submit">
+                            </div> 
+                              
                
+                    
+                        
+                    
+                    
+                </div>
 
+          
 
-
-            </div>
            
            
 
 
-        </div>
-    <!-- </div> -->
-</div>
+        
+    
        
 
         <div class="footer">
@@ -186,7 +181,7 @@
 
             <div class="footerBox">
                 <div class="bottomLogo">
-                    <img src="./logo.jpg" id="bottomImage">
+                    <img src="../logo.jpg" id="bottomImage">
                 </div>
     
                 <div class="bottomBox1 help">
@@ -200,13 +195,13 @@
                     <p><a href="#">partners</a></p>
                 </div>
                 <div class="bottomBox1 help">
-                    <p><a href="./home.html" target="_blank">home</a></p>
+                    <p><a href="#">home</a></p>
                     <p><a href="#">events</a></p>
                     <p><a href="#">news</a></p>
                 </div>
                 <div class="bottomBox1 help">
                     <P><a href="#">about us</a></P>
-                    <p><a href="./contact/contactus1.html" target="_blank">contact us</a></p>
+                    <p><a href="#">contact us</a></p>
                     <p><a href="#">services</a></p>
                     
     

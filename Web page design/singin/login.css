@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: white;;
+    background-color: white;
 }
 .logicon img
 {
@@ -41,6 +41,7 @@ body{
     position: absolute;
     top:50px;
     left:250px;
+    font-family:Fjalla;
 }
 
 /* .logicon
