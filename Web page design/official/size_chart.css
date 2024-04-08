@@ -1,0 +1,26 @@
+table{
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .mesure{
+    display: flex;
+    flex-flow: row wrap;
+    height: 450px;
+    margin-left: 40px;
+    
+  }
+  .mesure1{
+    
+    margin-top: 20px;
+    flex:1;
+    height: 450px;
+    font-size: 17px;
+  }
