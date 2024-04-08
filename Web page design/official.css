@@ -1,0 +1,19 @@
+.official{
+    /* height:1000px; */
+   /* background-image:url(./background.jpg); */
+   /*  */
+   width:100%;
+   /* background-image: url("./background.jpg"); */
+   height:100%; 
+   position:none;
+   overflow: scroll;
+  
+   
+}
+
+body{
+    background-color: #FBF8DD;
+    box-sizing: border-box;
+    overflow: scroll;
+    position: relative;
+}

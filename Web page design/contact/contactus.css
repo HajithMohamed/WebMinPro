@@ -1,0 +1,415 @@
+
+
+.input label
+{
+    display: block;
+   
+}
+
+
+.contact{
+    width:40%;
+    height:90%;
+    background-color: rgba(0,0,0,.5);
+    margin:100px auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 580px;
+    
+}
+
+body{
+    background-color: white;;
+}
+.logicon img
+{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+ 
+    position: absolute;
+    left:150px;
+    top:50px;
+
+   
+   
+
+}   
+
+.logicon h1
+{
+    color:white;
+    position: absolute;
+    top:50px;
+    left:250px;
+    font-family:Fjalla;
+}
+.input input
+{
+    border-radius: 10px;
+    border:none;
+    padding: 20px;;
+    width: 90%;
+    height:8%;
+    font-size: 20px;
+}
+.input label
+{
+    color:white;
+    font-size: 20px;
+}
+
+.name label
+{
+    position: absolute;
+    top:200px;
+}
+
+.name input
+{
+    position: absolute;
+    top:240px;
+   
+}
+.mail label
+{
+    position: absolute;
+    top:320px;
+
+}
+
+.mail input
+{
+    position: absolute;
+    top:350px;
+   
+}
+
+.number  label{
+
+    position: absolute;
+    top:420px;
+}
+.number input
+{
+    position: absolute;
+    top:450px;
+   
+}
+
+
+
+.comment label
+{
+    position: absolute;
+    top:520px;
+
+}
+
+.comment textarea
+{
+    font-size: 20px;
+
+    
+    position: absolute;
+    top:550px;
+    width: 90%;
+    height:15%;
+    border-radius: 10px;;
+    
+}
+
+.submit input
+{
+    position: absolute;
+    top:750px;
+    left:35%;
+    width:200px;
+    height:50px;
+    background-color: black;
+    color:white;
+    
+}
+
+
+
+
+@media screen and (max-width:1500px) {
+
+    .singUp button
+    {
+        position: absolute;
+       
+        left:30%;
+     
+    
+    
+        
+    }
+    .logicon img
+    {
+        
+        
+        position: absolute;
+        left:50px;
+        top:50px;
+    
+       
+       
+    
+    }   
+    
+    .logicon h1
+    {
+        
+        position: absolute;
+        top:50px;
+        left:150px;
+    }
+    
+    .first input
+    
+    {
+        border:none;
+        width:40%;
+        position: absolute;
+        top:250px;
+        left:50px;
+        height:8%;
+        color:black;
+        border-radius: 10px;
+        padding:10px;
+        font-size:20px;
+    
+    }
+    
+    .last input
+    {
+        border:none;
+        position: absolute;
+        top:250px;
+        left: 320px;
+        height:8%;
+        color:black;
+        border-radius: 10px;
+        padding:10px;
+        font-size:20px;
+        width:40%;
+    
+    }
+    
+
+    } 
+    @media screen and (max-width:1400px) {
+
+        .singUp button
+        {
+            position: absolute;
+           
+            left:30%;
+         
+        
+        
+            
+        }
+        .logicon img
+        {
+            
+            
+            position: absolute;
+            left:50px;
+            top:50px;
+        
+           
+           
+        
+        }   
+        
+        .logicon h1
+        {
+            
+            position: absolute;
+            top:50px;
+            left:150px;
+        }
+        
+        .first input
+        
+        {
+            border:none;
+            width:35%;
+            position: absolute;
+            top:250px;
+            left:50px;
+            height:8%;
+            color:black;
+            border-radius: 10px;
+            padding:10px;
+            font-size:20px;
+        
+        }
+        
+        .last input
+        {
+            border:none;
+            position: absolute;
+            top:250px;
+            height:8%;
+            color:black;
+            border-radius: 10px;
+            padding:10px;
+            font-size:20px;
+            width:35%;
+            left: 310px;
+        
+        
+        }
+        
+            
+        
+        
+        }
+
+
+    @media screen and (max-width:900px) {
+
+        .input label
+        {
+            display: block;
+           
+        }
+        
+        
+        .contact{
+            width:40%;
+            height:90%;
+            background-color: rgba(0,0,0,.5);
+            margin:100px auto;
+            border-radius: 20px;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+            min-width: 580px;
+            
+        }
+        
+        body{
+            background-color: white;;
+        }
+        .logicon img
+        {
+            width:80px;
+            height:80px;
+            border-radius: 50%;
+         
+            position: absolute;
+            left:150px;
+            top:50px;
+        
+           
+           
+        
+        }   
+        
+        .logicon h1
+        {
+            color:white;
+            position: absolute;
+            top:50px;
+            left:250px;
+            font-family:Fjalla;
+        }
+        .input input
+        {
+            border-radius: 10px;
+            border:none;
+            padding: 20px;;
+            width: 90%;
+            height:8%;
+        }
+        .input label
+        {
+            color:white;
+            font-size: 20px;
+        }
+        
+        .name label
+        {
+            position: absolute;
+            top:200px;
+        }
+        
+        .name input
+        {
+            position: absolute;
+            top:240px;
+           
+        }
+        .mail label
+        {
+            position: absolute;
+            top:320px;
+        
+        }
+        
+        .mail input
+        {
+            position: absolute;
+            top:350px;
+           
+        }
+        
+        .number  label{
+        
+            position: absolute;
+            top:420px;
+        }
+        .number input
+        {
+            position: absolute;
+            top:450px;
+           
+        }
+        
+        
+        
+        .comment label
+        {
+            position: absolute;
+            top:530px;
+        
+        }
+        
+        .comment textarea
+        {
+            
+            position: absolute;
+            top:560px;
+            width: 90%;
+            height:15%;
+            border-radius: 10px;;
+            
+        }
+        
+     
+        
+      
+        
+ .submit input
+{
+    position: absolute;
+    top:720px;
+    left:35%;
+    width:200px;
+    height:50px;
+    background-color: black;
+    color:white;
+    
+}
+            
+        
+        
+        }
+        
