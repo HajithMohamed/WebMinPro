@@ -1,8 +1,14 @@
 table{
     width: 85%;
     margin: auto;
+    border-collapse: collapse;
 }
-th,tr{
-    padding-left: 10px;
-
-}
+th{
+    height: 30px;
+}  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
